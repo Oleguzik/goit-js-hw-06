@@ -3,13 +3,12 @@ console.log(`Number of categories: ${listEl.length}`)
 
 const listItem = document.querySelectorAll('h2')
 //
-const elemUl = document.querySelectorAll('.item ul')
+// const elemUl = document.querySelectorAll('.item ul')
 // const itLi = []
 
 // elemUl.forEach(itemLi => {
 //   itLi.push(itemLi.childElementCount)
 // })
-
 // let i = 0
 
 listItem.forEach(itemL => {
