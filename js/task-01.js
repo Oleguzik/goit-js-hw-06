@@ -2,6 +2,7 @@ const listEl = document.querySelectorAll('#categories .item')
 console.log(`Number of categories: ${listEl.length}`)
 
 const listItem = document.querySelectorAll('h2')
+//
 const elemUl = document.querySelectorAll('.item ul')
 // const itLi = []
 
