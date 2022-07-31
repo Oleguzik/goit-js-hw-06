@@ -5,11 +5,12 @@ inpuText.addEventListener('blur', onBlurFocus)
 
 function onBlurFocus(event) {
   const currentTextLength = event.target.value.length
+  const currentClass = inpuText.classList
   if (currentTextLength === textLength) {
-    inpuText.classList.remove('invalid')
-    inpuText.classList.add('valid')
+    currentClass.remove('invalid')
+    currentClass.add('valid')
   } else {
-    inpuText.classList.remove('valid')
-    inpuText.classList.add('invalid')
+    currentClass.remove('valid')
+    currentClass.add('invalid')
   }
 }
